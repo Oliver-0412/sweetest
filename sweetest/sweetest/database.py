@@ -32,15 +32,7 @@ class DB:
                 self.cursor = self.connect.cursor()
                 sql = 'select version()'
 
-            elif arg['type'].lower() == 'oracle':
-                import os
-                import cx_Oracle as oracle
-                # Oracle查询出的数据，中文输出问题解决
-                os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
-                self.connect = oracle.connect(
-                    arg['user'] + '/' + arg['password'] + '@' + arg['host'] + '/' + arg['sid'])
-                self.cursor = self.connect.cursor()
-                sql = 'select * from v$version'
+            
             elif arg['type'].lower() == 'sqlserver':
                 import pymssql as sqlserver
                 self.connect = sqlserver.connect(
