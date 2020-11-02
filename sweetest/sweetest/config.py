@@ -1,55 +1,9 @@
 
-web_keywords = {
-    '打开': 'OPEN',
-    'OPEN': 'OPEN',
-    '检查': 'CHECK',
-    'CHECK': 'CHECK',
-    '#检查': 'NOTCHECK',
-    '#CHECK': 'NOTCHECK',
-    '输入': 'INPUT',
-    'INPUT': 'INPUT',
-    '点击': 'CLICK',
-    'CLICK': 'CLICK',
-    '选择': 'SELECT',
-    'SELECT': 'SELECT',
-    '取消选择': 'DESELECT',
-    'DESELECT': 'DESELECT',    
-    '移动到': 'HOVER',
-    '悬停': 'HOVER',
-    'HOVER': 'HOVER',
-    '右击': 'CONTEXT_CLICK',
-    'CONTEXT_CLICK': 'CONTEXT_CLICK',
-    '双击': 'DOUBLE_CLICK',
-    'DOUBLE_CLICK': 'DOUBLE_CLICK',
-    '拖拽': 'DRAG_AND_DROP',
-    'DRAG_AND_DROP': 'DRAG_AND_DROP',
-    '滑动': 'SWIPE',
-    'SWIPE': 'SWIPE',
-    '脚本': 'SCRIPT',
-    'SCRIPT': 'SCRIPT',
-    '对话框': 'MESSAGE',
-    'MESSAGE': 'MESSAGE',
-    '上传文件': 'UPLOAD',
-    'UPLOAD': 'UPLOAD',
-    '导航': 'NAVIGATE',
-    'NAVIGATE': 'NAVIGATE',
-    '滚动条': 'SCROLL',    
-    'SCROLL': 'SCROLL'
-}
 
 common_keywords = {
     '执行': 'EXECUTE',
     'EXECUTE': 'EXECUTE',
     'SQL': 'SQL'
-}
-
-http_keywords = {
-    'GET': 'GET',
-    'POST': 'POST',
-    'PUT': 'PUT',
-    'PATCH': 'PATCH',
-    'DELETE': 'DELETE',
-    'OPTIONS': 'OPTIONS'
 }
 
 mobile_keywords = {
